@@ -57,7 +57,7 @@ nav{
   text-align: end;
   line-height: 28px;
 }
-/* Sezione Hero */
+/* Sezione Hero / Main */
 
 .container-hero{
   display: flex;
@@ -75,12 +75,45 @@ nav{
   border-radius: 8px;
 }
 
+/* Sezione main */
+.container-info{
+  margin-top: 50px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
 .container-blue{
-  width: 80%;
+  border: 2px dashed black;
+  padding-top: 50px;
+  background-color: rgb(29, 144, 255);
+  width: 600px; 
+  height: 400px;
 }
 
-
-#divider{
-  height: 300px;
-  background-color: red;
+.container-pink{
+  border: 2px dashed black;
+  background-color: rgb(255, 193, 202);
+  width: 400px; 
+  height: 400px;
 }
+
+.container-info-grey{
+  margin-top: 50px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  background-color:rgb(211, 211, 211) ;
+}
+
+.container-info-grey div{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.container-green{
+  border: 2px dashed black ;
+  background-color: rgb(32, 139, 33) ;
+  width: 1000px;
+  height: 700px;
+}
+
